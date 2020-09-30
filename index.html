@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- TODO: clean up code -->
+<!-- TODO: add links -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+  <title>Shayaan Saiyed</title>
+</head>
+
+<body>
+
+<nav>
+  <ul class="navbar flex-container">
+    <li class="nav-item">
+      <a href="">home</a></li>
+    <li class="nav-item">
+      <a href="#project-section">projects</a>
+    </li>
+    <li class="nav-item">
+      <a href="">work history</a>
+    </li>
+    <li class="nav-item">
+      <a href="">resume</a>
+    </li>
+    <li class="nav-item">
+      <a href="">contact</a>
+    </li>
+  </ul>
+</nav>
+
+<main class="homepage flex-container">
+    <div class="intro">
+      <p>Hi 👋 My name is </p>
+      <h1>Shayaan Saiyed</h1> 
+      <br>
+      <p>and I'm an IT professional looking for my first Software Engineer role</p>
+      <!-- TODO: add blurb about what im interested in -->
+      <br>
+    </div>
+    <div class="photo">
+      <img src="assets/undraw_Freelancer_re_irh4 (1).svg">
+    </div>  
+</main>
+
+<!-- TODO: Add about me blurb -->
+
+<main class="project-section">
+  <h2 class="section-title" id="project-section">Projects</h2>
+  <section class="project flex-container">
+    <section class="project-image">
+      <img src="assets/Screen Shot 2020-09-07 at 1.35.41 PM.png">
+    </section>
+    <section class="project-desc">
+      <h3>This Website</h3>
+      <p>2020</p>
+      <p>I built this website to try my hand at front-end development. Using pure CSS and HTML I 
+        wanted to create a simple and responsive to showcase my coding projects.
+      </p><br>
+      <p>Check out the source code on <a href="">Github</a></p>
+    </section>
+  </section>
+
+  <section class="project flex-container">
+    <section class="project-desc">
+      <h3>Unity Create with Code</h3>
+      <p><em>2020 (In Progress), Personal Project</em></p>
+      <br>
+      <p>Currently progressing through Unity’s Create with Code tutorial with the goal 
+        of creating a fun, simple, first-person shooter. 
+      </p><br>
+    </section>
+    <section class="project-image">
+      <img src="assets/Unity-Screen-Shot.png">
+    </section>
+  </section>
+
+  <section class="project flex-container">
+    <section style="width: 100%;" class="project-desc">
+      <h3>Predicting the happiness of a song</h3>
+      <h4>2017, Machine Learning Final Project</h4>
+
+      <br>
+      <h5>What it is:</h5>
+      <p>We used data from the <a href="https://spotipy.readthedocs.io/en/2.14.0/#">Spotipy API</a>
+      to train a linear regression model to predict the valence (happeniness) of a song based on other features. 
+      We also used K-fold cross validation to determine which features of the song were best at predicting valence</p><br>
+      <h5>Tech used: </h5>
+      <p>Python, Numpy, SciKit Learn</p><br>
+      <p><a href="https://github.com/osermay/machine-be-learning/blob/master/ML_final_km3322_sas1122.ipynb" target=”_blank”>Github Link</a> </p>
+    </section>
+  </section>
+
+  <section class="project flex-container">
+    <section class="project-image">
+      <img src="assets/Grammy-run.png">
+    </section>
+    <section class="project-desc">
+      <h3>Grammy run</h3>
+      <p><em>Help Lady Gaga collect all her Grammys while avoiding enemies!</em></p>
+      <p>2016</p>
+      <br>
+      <p>This was a 2D platform game I built for the final project of my game programming class. 
+        I built the 2D physics engine from scratch, which meant calculating things like collisions, 
+        player movement and enemy movement. I also designed the Lady Gaga meat dress sprite and the Grammy sprite. </p><br>
+      <p>Tech used: C++, OpenGL</p>
+      <p>Check out the source code on <a href="https://github.com/shayaansaiyed/CS3113Homework/blob/master/Final%20Project/NYUCodebase/main.cpp">Github</a></p>
+    </section>
+  </section>
+
+  <section class="project flex-container">
+    <section style="width: 100%;" class="project-desc">
+      <h3>Find Folks</h3>
+      <p>2016</p>
+      <p>A meetup clone where users can sign in to join groups with similar interests, add other users as friends, 
+        create groups and events and sign up for upcoming events. </p><br>
+      <p>I worked on the functionality to create events, search for events, and create groups </p><br>
+      <p>Tech used: Python, Flask, MySQL DB, HTML/CSS</p><br>
+      <p>Check out the source code on <a href="https://github.com/kimmykong/FindFolks">Github</a> 
+      </p>
+    </section>
+  </section>
+
+  <section class="project flex-container">
+    <section class="project-desc">
+      <h3>SpaceBABY</h3>
+      <p>2016</p>
+      <p><em>Explore the solar system from the comfort of your browser!</em></p><br>
+      <p>SpaceBaby is a rudimentary scale model of the Solar System that my team and 
+        I built over the weekend at HackHarvard. It was my first time developing with 
+        Javascript, which added created more of a challenge. </p><br>
+        
+      <p>My contribution was programming the movement of the planets based on Kepler’s Laws.</p><br>
+      <p>Tech used: JavaScript, Babylon.js library</p><br>
+      <p>Head on over to <a href="https://devpost.com/software/spacebaby">Devpost</a> to learn more or to 
+        <a href="https://github.com/ng1355/spacebaby">Github</a> to see the source code</p>
+    </section>
+    <section class="project-image">
+      <img src="assets/Space Baby.png">
+    </section>
+  </section>
+
+</main>
+
+<!-- TODO: add links -->
+<footer class="footer">
+  <div class="links flex-container">
+      <div class="link-item">github</div>
+      <div class="link-item">email</div>
+      <div class="link-item">devpost</div>
+      <div class="link-item">linkedin</div>
+  </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
