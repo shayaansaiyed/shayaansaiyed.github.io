@@ -20,6 +20,10 @@ body{
     background: var(--main-color-bg);
 }
 
+p {
+    line-height: 1.2;
+}
+
 a {
     text-decoration: none;
     color: var(--main-color-blue);
@@ -119,6 +123,14 @@ main.flex-container{
     margin-right: 100px;
 }
 
+.footer a{
+    color: var(--main-color-bg);
+}
+
+.footer a:hover{
+    color: var(--main-color-orange);
+}
+
 
 /* -------- PROJECT STYLING ------- */
 .project-section{
@@ -174,6 +186,4 @@ h4 {
     padding: 10px;
     width: 50%;
 }
-
-
   
